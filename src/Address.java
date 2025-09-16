@@ -15,7 +15,7 @@ public class Address {
 		this.pincode = pincode;
 	}
 	public void printMyAddress() {
-		System.out.println("My Name is Abhay");
+		System.out.println(this.location + " " + this.pincode);
 	}
 
 }

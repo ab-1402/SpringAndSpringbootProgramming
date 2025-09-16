@@ -27,8 +27,10 @@ public class CollegeApplication {
 		Student s1=(Student)container.getBean("student1");
 		
 		s1.setAddress(a2);
+		System.out.println(s1.getName());
 		System.out.println(s1.getRollnumber());
 		System.out.println(s1.getAddress().getLocation());
+		
 	}
 	
 	

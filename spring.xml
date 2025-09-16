@@ -12,6 +12,52 @@
      </bean>
     <bean id="student1" class="Student">
     	<property name="name" value="ABhay"></property>
+    	
+    
+    </bean>
+    
+    <bean id="product1" class="Product">
+    	<property name="productId" value="123123"></property>
+    	<property name="productName" value="Iphone11"></property>
+    	<property name="productPrice" value="120000"></property>
+    	<property name="isExpired" value="true"></property>
+    	
+    	
+    
+    
+    </bean>
+    
+    <bean id="order1" class="OrderInformation">
+    	<property name="productId" value="1212"></property>
+    	<property name="productNames" >
+    		<list>
+    			<value>Iphine1</value>
+    			<value>Iphine12</value>
+    			<value>Iphine13</value>
+    			<value>Iphine14</value>
+    			<value>Iphine15</value>
+    			<value>Iphine16</value>
+    			<value>Iphine17</value>
+    			<value>Iphine18</value>		
+    		</list>
+    	</property>
+    	<property name="emials" >
+    		<set>
+    			<value>Abhay@12gmail.com</value>
+    			<value>Abhay@1234gmail.com</value>
+    			<value>Abhay@1234gmail.com</value>
+    			<value>Abhay@12345gmail.com</value>
+    				
+    		</set>
+    	</property>
+    	
+    	<property name="productandprice">
+    	 <map>
+            <entry key="Iphone15" value="125422"/>
+            <entry key="SamsungS23" value="115000"/>
+            <entry key="Pixel8" value="95000"/>
+        </map>
+    	</property>
     
     </bean>
 
