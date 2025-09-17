@@ -60,5 +60,19 @@
     	</property>
     
     </bean>
+    
+   <bean id="office" class="EmployeeAdrress">
+   <property name="pincode" value="12154"></property>
+   <property name="city" value="Nashik"></property>
+   <property name="country" value="India"></property>
+    </bean>
+    
+    <bean id="emp1" class="Employee">
+    	<property name="name" value="Abhay Borase"></property>
+    	<property name="eid" value="124578"></property>
+    	<property name="address" ref="office"></property>
+    
+    
+    </bean>
 
 </beans>

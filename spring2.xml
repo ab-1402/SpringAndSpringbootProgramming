@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        <bean id="patient1" class="Patient">
+        	<constructor-arg value="222"></constructor-arg>
+        	<constructor-arg value="Abhay"></constructor-arg>
+        	<constructor-arg value="8459854972"></constructor-arg>
+        	
+        
+        </bean>
+        
+        <bean id="cart1" class="CartItem"> </bean>
+        <bean id="cart2" class="CartItem">
+               <constructor-arg>
+               		<list>
+               			<value>Laptop</value>
+               			<value>Laptop1</value>
+               			<value>Laptop2</value>
+               			<value>Laptop3</value>
+               			<value>Laptop4</value>
+               			<value>Laptop5</value>
+               			
+               		
+               		</list>
+               
+               </constructor-arg>
+               
+        
+         </bean>
+         
+          <bean id="cart3" class="CartItem">
+               <constructor-arg>
+               <set>
+               			<value>1</value>
+               			<value>2</value>
+               			<value>3</value>
+               			<value>4</value>
+               			<value>5</value>
+               			<value>6</value>
+               </set>
+               	
+               </constructor-arg>
+               
+               <constructor-arg>
+               		<map >
+               			<entry key="LapTop1" value="120000"></entry>
+               			<entry key="LapTop2" value="120000"></entry>
+               			<entry key="LapTop3" value="120000"></entry>
+               			<entry key="LapTop4" value="120000"></entry>
+               			<entry key="LapTop5" value="120000"></entry>
+               		</map>
+               
+               </constructor-arg>
+               
+        
+         </bean>
+         
+
+        
+        
+        
+        
+       </beans>

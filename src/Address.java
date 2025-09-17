@@ -17,5 +17,11 @@ public class Address {
 	public void printMyAddress() {
 		System.out.println(this.location + " " + this.pincode);
 	}
+	@Override
+	public String toString() {
+		return "Address [location=" + location + ", pincode=" + pincode + "]";
+	}
+	
+	
 
 }
