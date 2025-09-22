@@ -17,6 +17,12 @@ public class SprintApplication2 {
 		
 		System.out.println(cr2.getItemnumbers());
 		System.out.println(cr2.getItemprice());
+		
+//		Demo2 demo2=(Demo2)container.getBean("demo2");
+		
+		Demo1 demo1=(Demo1)container.getBean("demo1");
+		
+		demo1.info();
 
 
 

@@ -58,6 +58,17 @@
         
          </bean>
          
+         <bean id="demo3" class="Demo3">
+         	<property name="name" value="Demo3Abhay"></property>
+         
+         </bean>
+         
+       
+         
+         <bean id="demo1" class="Demo1" autowire="byType"></bean>
+         
+         
+         
 
         
         
